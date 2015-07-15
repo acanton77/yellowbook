@@ -1,0 +1,44 @@
+@nav-bar-color: #F4D757;  //background yellow
+@nav-title-color: #C5013D; //title font red
+@top-area-bkg-color: #F4F5BC; //top area backgroundyellow
+@menu-font-color: #C5013D;  //background yellow
+@link-color: #C5013D; //linke color red
+
+a {
+color:@link-color;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+/* Nav Bar */
+.navbar-inverse {
+  background: @nav-bar-color; 
+}
+
+/* Nav bar title */
+.navbar-inverse .navbar-brand {
+  color: @nav-title-color;
+  font-size: 38px;
+}
+
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: @menu-font-color;
+}
+
+/* top area  */
+#h {
+  background: @top-area-bkg-color;
+  }
+  
+.authorpix {
+padding-right: 10px;
+//padding-bottom: 10px;
+}
+
+.contact {
+margin-bottom: 10px;
+margin-top: 50px;
+}

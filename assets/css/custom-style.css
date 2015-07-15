@@ -1,0 +1,32 @@
+a {
+  color: #c5013d;
+}
+.navbar {
+  min-height: 80px;
+}
+/* Nav Bar */
+.navbar-inverse {
+  background: #f4d757;
+}
+/* Nav bar title */
+.navbar-inverse .navbar-brand {
+  color: #c5013d;
+  font-size: 38px;
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #c5013d;
+}
+/* top area  */
+#h {
+  background: #f4f5bc;
+}
+.authorpix {
+  padding-right: 10px;
+}
+.contact {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
